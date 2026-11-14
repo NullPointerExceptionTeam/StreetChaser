@@ -1,0 +1,25 @@
+public enum ScreenModes
+{
+	Screen_HomeScreen = 0,
+	Screen_GameScreen = 1,
+	Screen_PauseScreen = 2,
+	Screen_SurviveScreen = 3,
+	Screen_LevelupScreen = 4,
+	Screen_GameOverScreen = 5,
+	Screen_PurchaseScreen = 6,
+	Screen_MissionInfoScreen = 7,
+	Screen_CountDownScreen = 8,
+	Screen_MapScreen = 9,
+	Screen_MissionCompleted = 10,
+	Screen_Settings = 11,
+	Screen_Menu = 12,
+	Screen_Moregame = 13,
+	Screen_About = 14,
+	Screen_AllShare = 15,
+	Screen_NotEnoughKeys = 16,
+	Screen_MailBox = 17,
+	Screen_SendLife = 18,
+	Screen_AskLife = 19,
+	Screen_None = 20,
+	Screen_Tutorial = 21
+}

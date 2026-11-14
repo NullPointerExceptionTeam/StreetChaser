@@ -1,0 +1,172 @@
+//objPlaceType  staict=0 dynamic=1
+//objIDfrJump=10 objIDfrSlide=20 objIDfrPIT=30  objIDfrVehicle junction=400  objIDfrVehicle movingLeft=401 objIDfrVehicle movingRyt=402 objIdFrKick=50 objIdFrBlockd=60 objIdfrThrow=70   objIDfrCoin=80  objIdfrSplpowers=90/its for Drawing
+//objTypeforJump=0  objTypeforSlide=1  objTypFrpit=2   objTypfrVehicle=3  objTypFrKick=4  objTypeFrBlocked=5 objTypFrThrow=6  coins=7  objTypFrEnergyItems=8  objTypsplpowers=9//its for collision checking
+//pathLocations: city-forest-market-bridge  ex: 1010 means obj can place in city and market....not in forest,bridge
+
+//must follow  1.NoOfTotobject   2.staticObj  3.DynamicObj 4.EnergyObj 5.vehcle obj  6.splpowers  dont change dis order or ignore
+
+//NoOfObjects
+77
+// objPlaceType~objID~objType~ObjName~Length~Width~Height~Height1~distanceFrmLastObject~pathId~distfrmStrt~offset~Probability~DifficultyFactor~lifeTime     //for stattic objects
+//staticObj-40 pit +2 bricks  
+0~300~2~pitsmall19~1~0.93~0~0~2.5~19~17.5~0~10~10~15
+0~301~2~CBendPitR29~1~5.768~0~0~3~29~41.44~0.5~10~10~15
+0~302~2~CBendPit1R29~1~5.768~0~0~3~29~18.40~0.5~10~10~15
+0~303~2~WoodBrokenPitL17~0.3~14~0~0~3~17~12.655~-0.5~10~10~15
+0~304~2~WoodBrokenPitR17~0.3~14~0~0~3~17~12.655~0.5~10~10~15
+0~305~2~WoodBrokenPitL1~0.3~14.05~0~0~3~1~12.725~-0.5~10~10~15
+0~306~2~WoodBrokenPitR1~0.3~14.05~0~0~3~1~12.725~0.5~10~10~15
+0~307~2~CBendPitR26~1~5.768~0~0~3~26~10.59~0.5~10~10~15
+0~308~2~CBendPitR0~1~5.768~0~0~3~0~10.49~0.5~10~10~15
+0~309~2~SBendPit2~1~0.93~0~0~3~2~6.86~0~10~10~15
+0~310~2~SBendPitR2~1~3.93~0~0~3~2~17.8~0.5~10~10~15
+0~311~2~CBendPitR3~1~5.768~0~0~3~3~21.22~0.5~10~10~15
+0~312~2~SBendPitL3~1~3.93~0~0~3~3~34.79~-0.5~10~10~15
+0~313~2~CBendPitR6~1~5.768~0~0~3~6~10.91~0.5~10~10~15
+0~314~2~CBendPitR7~1~5.768~0~0~3~7~10.45~0.5~10~10~15
+0~315~2~CBendPitR8~1~5.768~0~0~3~8~10.62~0.5~10~10~15
+0~316~2~CBendPitR9~1~5.668~0~0~3~9~10.19~0.5~10~10~15
+0~317~2~CBendPitR10~1~5.768~0~0~3~10~10.19~0.5~10~10~15
+0~318~2~CBendPitR11~1~5.768~0~0~3~11~10.59~0.5~10~10~15
+0~319~2~CBendPitR12~1~5.768~0~0~3~12~10.58~0.5~10~10~15
+0~320~2~CBendPitR13~1~5.768~0~0~3~13~10.52~0.5~10~10~15
+0~321~2~CBendPitR14~1~5.768~0~0~3~14~10.52~0.5~10~10~15
+0~322~2~CBendPitR15~1~5.768~0~0~3~15~20.93~0.5~10~10~15
+0~323~2~SBendPitL15~1~3.93~0~0~3~15~7.07~-0.5~10~10~15
+0~324~2~SBendPitR16~1~4.5~0~0~3~16~17.88~0.5~10~10~15
+0~325~2~SBendPitL16~1~3.94~0~0~3~16~7.49~-0.5~10~10~15
+0~326~2~SBendPitR19~1~3.93~0~0~3~19~7.27~0.5~10~10~15
+0~327~2~SBend20~1~0.93~0~0~3~20~7.77~0~10~10~15
+0~328~2~SBendL20~1~3.93~0~0~3~20~17.69~-0.5~10~10~15
+0~329~2~SBendR21~1~3.93~0~0~3~21~17.97~0.5~10~10~15
+0~330~2~SBend24~1~0.93~0~0~3~24~6.98~0~10~10~15
+0~331~2~CBendPitL27~1~5.768~0~0~3~27~10.8~-0.5~10~10~15
+0~332~2~SBendL3~0.3~4.16~0~0~3~3~7.38~-0.5~10~10~15
+0~333~2~SBendR3~0.3~4.16~0~0~3~3~7.38~0.5~10~10~15
+0~334~2~SBendL15~0.3~4.16~0~0~3~15~34.37~-0.5~10~10~15
+0~335~2~SBendR15~0.3~4.16~0~0~3~15~34.37~0.5~10~10~15
+0~336~2~SBendL24~0.3~4.16~0~0~3~24~17.75~-0.5~10~10~15
+0~337~2~SBendR24~0.3~4.16~0~0~3~24~17.75~0.5~10~10~15
+0~338~2~SBendL21~0.3~4.16~0~0~3~21~7.33~-0.5~10~10~15
+0~339~2~SBend1R21~0.3~4.16~0~0~3~21~7.33~0.5~10~10~15
+
+0~600~5~Brick29~1.1~1.5~0.32~0.32~3~29~28.63~0.45~5~3~15
+0~601~5~BrokenWall29~1.1~1.3~0.22~0.22~3~29~32.21~-0.35~10~8~15
+
+
+// objPlaceType~objID~objType~ObjName~Length~Width~Height~Height1~distanceFrmLastObject~LifeTime(sec)~probability~diffcultyFactor~PathLocations  //for dynamic objects
+//20
+1~100~0~Three_laneBlock_Orange~1.43~0.272~0.296~0.296~3~2~5~2~1111
+1~101~0~Three_laneBlock_Red~1.43~0.272~0.296~0.296~3~2~5~3~1111
+1~102~0~Single_LaneJump_Red~0.596~0.075~0.007~0.407~3~2~4~5~1111
+1~103~0~Single_LaneJump_Orange~0.596~0.075~0.007~0.407~3~2~4~5~1111
+
+1~200~1~Three_laneSlide_Red~1.486~0.131~0.47~0.44~4~2~2~3~1111
+1~201~1~Three_laneSlide_Orange~1.486~0.131~0.47~0.44~3~2~3~3~1111
+1~202~1~Three_laneSlide1_Red~1.481~0.068~0.48~0.45~3~2~4~2~1111
+1~203~1~Three_laneSlide1_Orange~1.481~0.068~0.48~0.45~3~2~4~2~1111
+1~204~1~Single_LaneSlide_Red~0.596~0.075~0.038~0.363~3~2~5~3~1111
+1~205~1~Single_LaneSlide_Orange~0.596~0.075~0.038~0.363~3~2~5~4~1111
+1~206~1~Two_LaneSlide~1~0.075~0.038~0.363~3~2~5~5~1111
+
+1~500~4~RugbyBrown~0.1~0.1~0.15~0.15~3.5~2~6~4~1111
+1~501~4~footballwhite~0.1~0.1~0.15~0.15~3.5~2~10~5~1111
+1~502~4~footballyellow~0.1~0.1~0.15~0.15~3.5~2~10~6~1111
+1~503~4~Rugbyblue~0.1~0.1~0.15~0.15~3.5~2~6~4~1111
+1~700~6~bottle~0.15~0.015~0.15~0.015~3~2~15~10~1111
+
+1~605~5~Single_LaneBlock_Barrel_B~0.6~0.37~0.5~0.5~3~2~3~2~1111
+1~606~5~Single_LaneBlock_Barrel_R~0.6~0.37~0.5~0.5~3~2~3~3~1111
+1~607~5~Single_LaneBlock_R~0.6~0.596~0.038~0.363~3~2~4~4~1111
+1~608~5~Single_LaneBlock_O~0.6~0.596~0.038~0.363~3~2~5~3~1111
+
+//1
+1~800~7~Coin~0.15~0.05~0.15~0.15~0.35~0.25~1~1~1111
+
+//objPlaceType~objID~objType~ObjName~Length~Width~Height~Height1~speed 	 							 //for vehicle objects
+//4
+1~400~3~CabCop~0.807~1.545~0.818~0.618~2.5
+1~401~3~FoodVan~0.951~2.168~0.842~0.842~2.7
+1~402~3~CabTaxi~0.807~1.545~0.818~0.618~2.6
+1~403~3~IceVan~0.951~2.168~0.842~0.842~3
+
+// objPlaceType~objID~objType~ObjName~Length~Width~Height~Height1~distanceFrmLastObject~LifeTime(sec)~probability~diffcultyFactor~PathLocations  //for spl objects
+//10
+1~900~9~magnetYellow~0.25~0.4~0.35~0.35~2~2~2~2~1111
+1~901~9~potionGreen~0.25~0.4~0.45~0.35~2~2~12~10~1111
+1~902~9~potionGreenBig~0.25~0.4~0.2~0.2~2~2~10~4~1111
+1~903~9~Coin2x~0.25~0.4~0.35~0.35~2~1~2~1~1111
+1~904~9~Coin3x~0.25~0.4~0.35~0.35~2~1~1~1~1111
+1~905~9~Bomb~0.25~0.4~0.5~0.35~2~1~10~3~1111
+1~906~9~Trap~0.25~0.4~0~0~2~2~8~3~1111
+1~907~9~Auto~0.25~0.4~0.35~0.35~2~2~3~1~1111
+1~908~9~spdInc~0.25~0.4~0.35~0.35~2~2~5~2~1111
+1~909~9~spdDec~0.25~0.4~0.35~0.35~2~2~8~2~1111
+
+
+//These are all for AIplayer datas   NEW 
+//noOfAiPlayer count
+//AiplayerIndex~name~intelligence~Base speed~MinSpeed~MaxSpeed~SpdAccelerationFactor~SpdDeAccelerationFactorPerSecond~EnergyIncreasingMinValue~EnergyIncreasingMaxVal~energyaddedpersecwhendisappearFactor~PrevSpdProportion~ChasingRadius~ChasingTime		
+//~StaticObjEnable/Disable~StaticobjPlacingArr~DynamicObjDiffcultyLevel~Kick_ThrowAdjFactor~Vehicle~surpriseAIprob~splpowerPlacingProb~+veSplPowerAdjFactor~-veSplPowerAdjFactor
+// NOTE: where  Kick_ThrowAdjFactor are in 0 to 2  and +Ve splpowers and -ve spl powers are in the range of 0 to 9 ....rest of all are in 0 to 100 range
+10	
+0~Huge Robin~10~3.85~2.75~4.5~10~0.01~0.3~0.4~0.004~0.95~3~15			~15~20-25-30			~40~3~60~30~100~8~2							
+1~Sneaky Julie~15~3.85~2.85~4.55~5.5~0.008~0.25~0.35~0.003~0.95~3.75~20		~30~30-40-50			~45~2.5~65~45~100~7~3				
+2~Batista~20~3.85~3~4.75~6~0.004~0.2~0.3~0.002~0.95~4.25~30			~40~40-50-70			~50~2~70~50~100~7~3
+3~Skinny Boy~25~3.85~3.25~4.85~8~0.0033~0.15~0.25~0.0017~0.95~4.75~40		~50~50-65-80			~55~1.6~70~60~100~6~4
+4~Jerrica~30~3.85~3.5~4.9~9~0.0027~0.14~0.23~0.0014~0.95~5.1~50			~50~50-80-85			~60~1.4~75~65~100~6~4
+
+5~Little Ben~60~3.75~2.5~4.75~8.05~0.0023~0.13~0.22~0.0012~0.95~5.4~60		~50~50-75-80			~65~1.3~75~65~100~6~4			
+6~Psycho~70~3.8~2.5~4.8~8.86~0.0020~0.12~0.20~0.001~0.95~5.7~70			~40~40-85-90			~75~1.25~80~70~100~6~4
+7~Mad Butcher~80~3.85~2.5~4.85~9.74~0.0018~0.10~0.18~0.0009~0.95~6~70	~40~45-90-95			~80~1.2~85~80~100~6~4	
+8~Rogue Slayer~90~3.95~2.5~4.95~10.72~0.0016~0.08~0.15~0.0008~0.95~6.5~70		~40~40-95-100			~90~1.1~95~90~100~6~4	
+9~Mr.Joker~100~4~2.5~5.5~11.79~0.0014~0.05~0.1~0.0007~0.95~7~70			~40~40-100-100		~100~1.0~100~100~100~6~4				
+
+
+//playerIndex~name~Basespeed~MinSpeed~MaxSpeed~SpdAccelerationFactor~EnergyDeAccelerationFactorPerSecond~EnergyIncreasingMinValue~EnergyIncreasingVal~PrevSpdProportion
+
+//	0- Normal		//1- Super Agile		//2- Stamina			//3- Champion			//4-Special
+
+5
+0~You~3.85~2.75~4.5~3~0.01~0.03~0.05~0.95		
+1~You~3.85~2.75~4.5~3~0.0093~0.03~0.05~0.95		
+2~You~3.85~2.75~4.5~3~0.0085~0.03~0.06~0.95		
+3~You~3.85~2.75~4.5~3~0.0075~0.03~0.06~0.95		
+4~You~3.85~2.75~4.5~3~0.006~0.03~0.07~0.95		
+
+
+// productId_Android~productID_IOS~ProductTilte~ProductDescription~ProductPrice~Img~productType~purchaseType
+//where  productType is 0-consumable 1-nonconsumabel 2-subscription
+//where purchaseType is 0-store 1-deal 2-boost 3-freeitems
+//Store datas
+12
+igt.sc.heapcoins~igt.sc.heapcoins~Heap Of Coins~6,000 Coins~$ 1~HeapOfCoin~0~0
+igt.sc.bagcoins~igt.sc.bagcoins~Bag Of Coins~30,000 Coins~$ 4~BagOfCoins~0~0
+igt.sc.trolleycoins~igt.sc.trolleycoins~Trolley Of Coins~1,25,000 Coins~$ 13~TrolleyOfCoin~0~0
+igt.sc.vaultcoins~igt.sc.vaultcoins~Vault Of Coins~4,00,000 Coins~$ 35~vaultOfCoins~0~0
+igt.sc.truckcoins~igt.sc.truckcoins~Truck Of Coins~10,00,000 Coins~$ 70~TruckOfCoin~0~0
+igt.sc.handfulkeys~igt.sc.handfulkeys~ HandFul Of Keys ~30 Keys ~$ 5~HandFullOfKeys~0~0
+igt.sc.pouchkeys~igt.sc.pouchkeys~ Pouch Of Keys ~120 Keys ~$ 16~PouchOfkeys~0~0
+igt.sc.traykeys~igt.sc.traykeys~ Tray Of Keys ~300 Keys ~$ 35~TrayOfKeys~0~0
+igt.sc.boxkeys~igt.sc.boxkeys~ Box Of Keys ~750 Keys ~$ 70~BoxOfKeys~0~0
+igt.sc.5lives~igt.sc.5lives~ Five Lives ~5 Lives ~$ 1 ~5lives~0~0
+igt.sc.25lives~igt.sc.25lives~ Twenty Five Lives ~25 Lives ~$ 4 ~25lives~0~0
+igt.sc.100lives~igt.sc.100lives~ Hundred Lives ~100 Lives ~$ 12 ~100lives~0~0
+
+//Combo Datas
+6
+igt.sc.coinkeyoffer~igt.sc.coinkeyoffer~ Coin and Key Offer ~25,000 Coins + 25 Keys ~$ 6~Coin_keys~0~1
+igt.sc.coinlivesoffer~igt.sc.coinlivesoffer~ Coin and Lives Offer ~50,000 Coins + 30 Lives ~$ 10~Coin_Life~0~1
+igt.sc.keylivesoffer~igt.sc.keylivesoffer~ Keys and Lives Offer ~ 100 Keys + 50 Lives ~$ 20~Keys_Life~0~1
+igt.sc.megaoffer~igt.sc.megaoffer~Mega Bundle Offer ~ 1,50,000 Coins + 150 Keys + 150 Lives ~$ 45~MegaBundle~0~1
+igt.sc.boosteroffer1~igt.sc.boosteroffer1~ Booster Offer ~75,000 Coins + 50 Keys + ScoreMultiplier ~$ 25 ~BoosterOffer1~1~1
+igt.sc.boosteroffer2a~igt.sc.boosteroffer2a~ Limited Offer ~75 Lives +75 Keys + Health Booster ~$ 30~BoosterOffer2~1~1
+
+//Free Datas
+5
+Com.igoldtech.ut.streetchaser.watchVideo~Com.igoldtech.ut.streetchaser.watchVideo~ Watch Video~Get +1 life~Get it~WatchVideo~0~3
+Com.igoldtech.ut.streetchaser.connectFB~Com.igoldtech.ut.streetchaser.connectFB~ Connect FB~Earn +5 lives~Get it~connectFB~1~3
+Com.igoldtech.ut.streetchaser.othergames~Com.igoldtech.ut.streetchaser.othergames~More iGold Games~Earn +200 coins~Get it~igtmore~1~3
+Com.igoldtech.ut.streetchaser.fbLikeSc~Com.igoldtech.ut.streetchaser.fbLikeSc~Like StreetChaser~Earn +1000 coins~Get it~likeSC~1~3
+Com.igoldtech.ut.streetchaser.fbLikeIgt~Com.igoldtech.ut.streetchaser.fbLikeIgt~Like iGold~Earn +1000 coins~Get it~likeIGT~1~3
+

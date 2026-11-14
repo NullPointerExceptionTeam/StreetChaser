@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!28 &2800000
+Texture2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Lightmap-40_comp_light
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_Width: 32
+  m_Height: 32
+  m_CompleteImageSize: 696
+  m_TextureFormat: 34
+  m_MipCount: 6
+  m_IsReadable: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 3
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_LightmapFormat: 1
+  m_ColorSpace: 1
+  image data: 696
+  _typelessdata: dfdfd806f0ff0000d8d8d80300fff00fe7e7e702e0ff0f00d9d9da02ffce0c10dedede063370f93fa8a8a8029911117fa8a8a802dddd8991a8a8a802ddcd0088dfdfe602f033ff0cd1d1d8020e0ff00ce7e7e702f0ff0380d1d1d8220000f000e7e7ee2288ff0000afafaf03fba02004a0a0a0023fec0000a1a1a1023f000000dededf0230000f0fd1d1d902030700e0d8d8d82200000000d8d8d80200fff000dcdddd26ecf099c0a0a0a002d9101106a0a0a0020fff0001a1a1a12201000000dfdfd82bf300b000d8d8d82708cf000ce6e6ee22c0ff5f00d1d1d802000cf008dcdddd2a73f08030a1a1a10b77771000a1a1a1034777cccca8a8a80600770088ddddde0630003f0fd1d1d822000ff001e6e6ee0290ff1f00d1d1d122000ff002dddddd06ccf091efaeaeae0322223319aeaeae032222fb33a8a8a8220eee9900dfdfd806f0cc0003d8d8d802020ff00fe6e6ed22c8ff8100d2d2d306ff0f001dd3d3e338ee10ff00505050a1eeeeffff505050a1eeeeffffa0a0a021dedfccccdfdfd806f052000dd8d8d80300ef700fe6e6ed22f7fff000d1d1d102000ff07fd0d0d000ff00ffff00000002ffffffff00000002ffffffff00000002ffffffffdfdfd802f000000fd2d2da02ff0000f0dfdfdf06f000000fd1d1d102000ff00fd0d0d000ff00ffff00000002ffffffff00000002ffffffff00000002ffffffffd1d1d8060ff0000fd8d8d8020e00300fdadada20d8108210afafaf0332fbc000d1d8d8220ff04980d8d8d8220f800800cacaca207760746fa1a1a10207170088d1d8d8230ff800d0d8d8d8230ff08d8cb6b6b659bb80aa9fa4a4a4198aaadcaad8d8d8030ff0c0f0d0d8d8020ff0ffff383838fffff0ffff00000002ffffffffd8d8d902e0ff0000b0b0b06bfff0000fd8d8d802fe5f000192929299eee0ceedcacaca7dff00b000c9c9c928c0e0938fb8b8b82600000000
+  m_StreamData:
+    offset: 0
+    size: 0
+    path:
